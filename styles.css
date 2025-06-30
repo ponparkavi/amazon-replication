@@ -1,0 +1,163 @@
+*{
+	background-color:;
+	margin:0px;
+	font-family:calibri;
+}
+.firstline{
+	height:61px;
+	display:flex;
+	background-color:black;
+	top:0;
+}
+.logo{
+	height:61px;
+	padding:0;
+}
+.location{
+	height:61px;
+	color:white;
+	background-color:black;
+}
+.location:hover{
+	border:1px solid white;
+}
+#search{
+	height:41px;
+	padding:10px;
+}
+#searchbox{
+	height:30px;
+	padding:5px;
+	color:black;
+	font-weight:bolder;
+	width:570px;
+	border:3px;
+}
+#lang{
+	height:37px;
+	padding:12px;
+}
+#select{
+	padding:8px;
+	width:57px;
+	color:white;
+	font-weight:bolder;
+	background-color:black;
+}
+#tpr8{
+	height:61px;
+}
+#butsign{
+	height:61px;
+	width:120px;
+	color:white;
+	background-color:black;
+}
+#butres{
+	height:61px;
+	width:90px;
+	padding:10px;
+	color:white;
+	background-color:black;
+}
+#butres:hover{
+	border:1px solid white;
+}
+#butcart:hover{
+	border:1px solid white;
+}
+#butsign:hover{
+	border:1px solid white;
+}
+#butcart{
+	height:61px;
+	color:white;
+	background-color:black;
+}
+#secondline{
+	display:flex;
+	justify-content:space-between;
+	background-color:rgb(40,40,40);
+	color:white;
+	height:39px;	
+}
+#secdiv{
+	padding:10px;
+}
+#secdiv:hover{
+	border:1px solid white;
+}
+#center{
+	width:306.67px;
+	height:400px;
+	left:30%; 	
+	padding:10px;
+}
+#bit{
+	height:530px;
+	width:1365px;
+	background-color:aqua;
+	padding:130px;
+	display:flex;
+	justify-content:center;
+	align-item:center;
+}
+.carousel-item {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+#bit{
+	display:felx;
+	justify-content:center;
+	background-color:red;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 84px;
+	height:239.41px;
+    color:black;
+    text-align: center;
+}
+
+.carousel-control-next-icon {
+    background-image: url(data:image/arrow.PNG;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 29px;
+    height: 100px;
+    background: transparent;
+    background-size: 100% 100%;
+}
+.sr-only {
+    position: absolute;
+    width: 3px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    border: 0;
+}
